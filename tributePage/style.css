@@ -1,0 +1,83 @@
+/*.home {
+    grid-area: home;
+    }
+    
+    .logo {
+        grid-area: logo;
+    }
+
+    .login {
+        grid-area:login;
+    }*/
+    
+
+/*.navbarContainer{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: 50px;
+    grid-gap: 10px;
+    grid-template-areas:
+    "home logo login";
+
+}*/
+
+.navbarContainer {
+    display: flex;
+    justify-content:space-between;
+    font-family: roboto;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+body {
+    background-color: white;
+   
+}
+
+.logo {
+    font-size: 5vw;
+    display: flex;
+    justify-self: center;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+
+
+    
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    /* Magic! */
+    max-width: 70vw;
+}
+
+.tribute-info {
+
+    
+}
+
+.whyGoKeto {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
